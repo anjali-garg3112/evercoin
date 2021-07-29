@@ -1,0 +1,464 @@
+@font-face{
+    font-family:"Raleway-regular";
+    src:url(../fonts/Raleway-Regular.ttf);
+
+}
+@font-face{
+    font-family:"Raleway-medium";
+    src:url(../fonts/Raleway-Medium.ttf);
+    
+}
+@font-face{
+    font-family:"Raleway-bold";
+    src:url(../fonts/Raleway-Bold.ttf);
+    
+}
+@font-face{
+    font-family:"Raleway-semibold";
+    src:url(../fonts/Raleway-SemiBold.ttf);
+    
+}
+@media (min-width: 992px)
+{.topbar {
+    max-width: 100%;
+}
+}
+@media (max-width: 768px){
+.topbar {
+    max-width: 720px;
+}
+}
+@media (max-width: 576px){
+.topbar {
+    max-width: 521px;
+    margin-left: -5rem;
+    
+}}
+@media (max-width: 576px){
+    .topbar .auth{
+        margin-left: 1rem;
+        max-width: 521px;
+        
+    }}
+
+ @media (max-width:992px){
+        .hero {
+            
+    max-width: 100%;
+            
+        }}
+        
+@media (max-width: 768px){
+     .hero{
+                max-width: 720px;
+
+            }
+                } 
+
+  @media (max-width: 576px){
+       .hero .container{
+     max-width: 521px;
+    margin-left: -5rem; 
+    font-size: small;    
+                    }
+                }   
+ @media (max-width: 576px){
+     .hero .container .reward-input{
+                  margin-left: -10rem;   
+                  max-width: 521px;
+              }
+            }   
+            @media (max-width: 576px){
+                .hero .hero-image{
+                             margin-left: -10rem;
+                             max-width: 521px;
+                                
+                         }
+                       }
+
+ @media (max-width:992px){
+           .my {
+                            
+            max-width: 100%;
+             }
+            }
+                        
+ @media (max-width: 768px){
+                     .my{
+                       max-width: 720px;
+                
+                         }
+                      } 
+                
+    @media (max-width: 576px){
+                      .my{
+                  max-width: 521px;
+                  margin-left: -5rem;
+                  font-size:small;
+                }         
+            } 
+     @media (max-width: 576px){
+                .my .phone{
+            max-width: 521px;
+            margin-left: -7rem;
+          }         
+      }       
+@media (max-width:992px){
+        .new {
+                         
+         max-width: 100%;
+          }
+         }
+                     
+@media (max-width: 768px){
+                  .new{
+                    max-width: 720px;
+             
+                      }
+                   } 
+             
+ @media (max-width: 576px){
+                   .new{
+               max-width: 521px;
+               margin-left: -15rem;
+               font-size:small;
+             }         
+         } 
+         
+         @media (max-width: 576px){
+            .new .section-h2{
+        max-width: 521px;
+        margin-left: -7rem;
+        font-size:small;
+      }         
+  }       
+  @media (max-width: 576px){
+    .new .section-p{
+max-width: 521px;
+margin-left: -8rem;
+font-size:small;
+}         
+}
+@media (max-width:992px){
+    .old {
+                     
+     max-width: 100%;
+      }
+     }
+                 
+@media (max-width: 768px){
+              .old{
+                max-width: 720px;
+         
+                  }
+               } 
+         
+@media (max-width: 576px){
+               .old{
+           max-width: 521px;
+           margin-left: -7rem;
+           font-size:small;
+         }         
+     } 
+     @media (max-width: 576px){
+        .old .section-h2{
+    max-width: 521px;
+    margin-left: -1rem;
+    font-size:medium;
+  }         
+}       
+@media (max-width: 576px){
+.old .section-p{
+max-width: 521px;
+margin-left: -5rem;
+font-size:medium;
+}         
+}                                       
+@media (max-width: 576px){
+    .old .wrap{
+    max-width: 521px;
+    margin-left: -9rem;
+    
+    }         
+
+}
+@media (max-width:992px){
+    .get-on-board {
+                     
+     max-width: 100%;
+      }
+     }
+                 
+@media (max-width: 768px){
+              .get-on-board{
+                max-width: 720px;
+         
+                  }
+               } 
+         
+@media (max-width: 576px){
+               .get-on-board{
+           max-width: 521px;
+           margin-left: -3rem;
+           font-size:small;
+           
+         }         
+     } 
+     @media (max-width: 576px){
+        .get-on-board .reward-input-group{
+    max-width: 521px;
+    margin-left: -20rem;
+    font-size:small;
+  }         
+} 
+@media (max-width: 576px){
+    .get-on-board .primary .btn{
+max-width: 521px;
+margin-left: 1rem;
+font-size:small;
+}         
+} 
+@media (max-width: 576px){
+    .get-on-board .coin-list-one{
+max-width: 521px;
+margin-left: 5.1rem;
+font-size:small;
+
+}         
+} 
+@media (max-width:992px){
+    .footer {
+                     
+     max-width: 100%;
+      }
+     }
+                 
+@media (max-width: 768px){
+              .footer{
+                max-width: 720px;
+         
+                  }
+               } 
+         
+@media (max-width: 576px){
+               .footer{
+           max-width: 521px;
+           margin-left: -3rem;
+           font-size:small;
+           
+         }         
+     } 
+
+body{
+    background: white;
+    height: 5400px;
+    width: fit-content;
+}
+header.topbar .auth > div a{
+    color: black;
+    text-decoration: none;
+}
+
+
+header.topbar .container .main img{
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    
+}
+
+header.topbar .container .auth{
+    
+    margin-right: 7rem;
+    margin-top: 2.5rem;
+    font-family:"Raleway-semibold";
+}
+header.topbar .container .auth .divider{
+    padding: 0 1rem;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between
+}
+.items-center{
+    align-items: center;
+}
+
+header.hero .container h1{
+    color:black;
+    font-family:"Raleway-semibold";
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+
+header.hero .container p{
+    margin-left: 6rem;
+    color:gray;
+    font-family:"Raleway-semibold";
+    
+}
+
+header.hero .container .wel{
+    margin-top: -1rem;
+}
+ .form-cont{
+    height: 2rem;
+    margin-left: 16rem;
+    
+    
+
+}
+.btn1{
+    width:6rem;
+    height: 3rem;
+    margin-left: -5rem;
+    background: rgba(29, 252, 222, 0.3);
+    
+}
+.btn{
+    width:6rem;
+    height: 3rem;
+    margin-left: 22rem;
+    background: rgba(29, 252, 222, 0.3);
+    
+}
+.hero-image img{
+    margin-right: -1rem;
+    width: 50rem;
+    margin-top: 4rem;
+    
+}
+
+
+section.my{
+   background-color:  rgba(122, 235, 220, 0.3);
+    height: 400px;
+    width: 1290px;
+    
+
+}
+  
+.line hr{
+    margin-top: -6rem;
+}
+section.my .key{
+    margin-top: 5rem;
+    text-align: center;
+}
+section.my .key .money{
+    color: gray;
+    
+}
+.phone img{
+    width: 30rem;
+    margin-left: 24rem;
+    
+}
+.btn-primary {
+    background-color: #03a67b;
+    border-color: transparent;
+    background-image: linear-gradient(to bottom right,#05b068 0,#11b89a 100%);
+}
+.charger img{
+    height: 35rem;
+    margin-top: 10rem;
+    margin-left: 19rem;
+}
+@media (min-width: 576px) and (max-width: 767.98px)
+{.green-line
+ {
+    margin-bottom: 1rem;
+    height: 3px;
+    width: 7rem;
+    background: #03a67b;
+}
+}
+.inner-wrap{
+    margin-top: 19rem;
+    margin-left: 8rem;
+}
+
+.section-h2{
+    font-family:"Raleway-bold";
+}
+.section-h2 span{
+    font-family:"Raleway-semibold";
+    color: gray;
+}
+.section-p{
+    color: grey;
+}
+.wrap img{
+    width: 30rem;
+    margin-left: 10rem;
+    margin-top: 15rem;
+}
+
+.get-on-board {
+    height: 38rem;
+    margin-top: 6rem;
+    text-align: center;
+    background: #3e4d53;
+    color:white;
+}
+.get-on-board .board {
+    font-size:3rem;
+    padding-top: 8rem;
+    font-family: "Raleway-bold";
+}
+.get-on-board .control{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color:  white;  
+
+    
+}
+.reward-input-group {
+    position: relative;
+    float: left;
+    padding-right: 10px;
+    max-width: 17rem;
+}
+
+.input-group-addon {
+    text-align: left;
+}
+
+.coin-list-one .btc img{
+    width: 4rem;
+    margin-top: 5rem;
+
+}
+.down a{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+.form-control{
+    height: 2rem;
+    margin-left: 32rem;
+}
+.primary{
+    margin-left: 22rem;
+}
+section.footer{
+    background: #5d696e;
+    height: 8rem;
+}
+.foot img{
+    width: 8rem;
+    margin-left: 8rem;
+}
+.copy span {
+    opacity: .8;
+    margin-left: 8.3rem;
+    color:#fff;
+    
+}
+
+
+
+
